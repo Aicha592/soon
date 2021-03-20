@@ -1,0 +1,412 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-family: Matura MT Script Capitals;
+
+}
+.navbar{
+	width: 100%;
+	position: fixed;
+	background-color: dodgerblue;
+	padding: 15px 0px;
+	margin-top: -105px;
+	
+}
+.navbar .max-width{
+
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	align-content: auto;
+}
+.logo a {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;
+}
+.logo span{
+	color: #000;
+}
+.menu li{
+	display: inline-block;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 1s;
+}
+
+.menu li a:hover{
+	color: black;
+	}
+	
+.pr0.pr{
+	
+	position: absolute;
+
+}
+.pr{
+	display: flex;
+	margin: 0px;
+	margin-top: 100px;
+	margin-bottom:  0px;
+	text-align: center;
+}
+
+
+.pr li{
+	display: flex;
+	list-style: none;
+	color: green;
+	font-family: arial;
+	font-size: 50px;
+	letter-spacing: 40px;
+	animation: flash 1.4s linear infinite;
+	
+
+}
+@keyframes flash{
+	0%{
+		color: yellow;
+		text-shadow: none;
+	}
+	90%{
+		color: red;
+		text-shadow: none;
+	}
+	100%{
+		color: green;
+		text-shadow: 0 0 7px white 0 0 50px green;
+	}
+}
+.pr li:nth-child(1){
+	animation-delay: 1s;
+}
+.pr li:nth-child(2){
+	animation-delay: 2s;
+}
+.pr li:nth-child(3){
+	animation-delay: 3s;
+}
+.pr li:nth-child(4){
+	animation-delay: 4s;
+}
+.pr li:nth-child(5){
+	animation-delay: 5s;
+}
+.pr3{
+	font-family: Imprint MT Shadow;
+	font-size: 30px;
+}
+.pr4 li{
+	display: flex;
+	animation: flashs 1.4s linear infinite;
+	font-size: 50px;
+	letter-spacing: 40px;
+	color: green;
+	font-family: arial;
+
+}
+.pr4{
+	display: flex;
+}
+@keyframes flashs{
+	0%{
+		color: yellow;
+		text-shadow: none;
+	}
+	90%{
+		color: red;
+		text-shadow: none;
+	}
+	100%{
+		color: green;
+		text-shadow: 0 0 7px white 0 0 50px red;
+	}
+}
+.pr4 li:nth-child(1){
+	animation-delay: 1s;
+}
+.pr4 li:nth-child(2){
+	animation-delay: 2s;
+}
+.pr4 li:nth-child(3){
+	animation-delay: 3s;
+}
+.pr4 li:nth-child(4){
+	animation-delay: 4s;
+}
+.pr4 li:nth-child(5){
+	animation-delay: 5s;
+}
+.pr4 li:nth-child(6){
+	animation-delay: 6s;
+}
+.pr4 li:nth-child(7){
+	animation-delay: 7s;
+}	
+.pr4 li:nth-child(8){
+	animation-delay: 8s;
+}	
+.pr4 li:nth-child(9){
+	animation-delay: 9s;
+}	
+.pr4 li:nth-child(10){
+	animation-delay: 10s;
+}	
+.pr5{
+	font-family: Imprint MT Shadow;
+	font-size: 30px;
+}
+.pr6 li{
+	display: flex;
+	animation: flashss 1.4s linear infinite;
+	font-size: 50px;
+	letter-spacing: 40px;
+	color: green;
+	font-family: arial;
+
+}
+.pr6{
+	display: flex;
+}
+@keyframes flashss{
+	0%{
+		color: yellow;
+		text-shadow: none;
+	}
+	90%{
+		color:red;
+		text-shadow: none;
+	}
+	100%{
+		color: green;
+		text-shadow: 0 0 7px white 0 0 50px red;
+	}
+}
+.pr6 li:nth-child(1){
+	animation-delay: 1s;
+}
+.pr6 li:nth-child(2){
+	animation-delay: 2s;
+}
+.pr6 li:nth-child(3){
+	animation-delay: 3s;
+}
+.pr6 li:nth-child(4){
+	animation-delay: 4s;
+}
+.pr6 li:nth-child(5){
+	animation-delay: 5s;
+}
+.pr6 li:nth-child(6){
+	animation-delay: 6s;
+}
+.pr6 li:nth-child(7){
+	animation-delay: 7s;
+}
+.pr6 li:nth-child(8){
+	animation-delay: 6s;
+}
+
+.pr7{
+	font-family: Imprint MT Shadow;
+	font-size: 30px;
+}	
+.pr8 li{
+	display: flex;
+	animation: flashsss 1.4s linear infinite;
+	font-size: 50px;
+	letter-spacing: 40px;
+	color: green;
+	font-family: arial;
+
+}
+.pr8{
+	display: flex;
+}
+@keyframes flashsss{
+	0%{
+		color: yellow;
+		text-shadow: none;
+	}
+	90%{
+		color:red;
+		text-shadow: none;
+	}
+	100%{
+		color: green;
+		text-shadow: 0 0 7px white 0 0 50px red;
+	}
+}
+.pr8 li:nth-child(1){
+	animation-delay: 1s;
+}
+.pr8 li:nth-child(2){
+	animation-delay: 2s;
+}
+.pr8 li:nth-child(3){
+	animation-delay: 3s;
+}
+.pr8 li:nth-child(4){
+	animation-delay: 4s;
+}
+.pr8 li:nth-child(5){
+	animation-delay: 5s;
+}
+.pr8 li:nth-child(6){
+	animation-delay: 1s;
+}
+.pr8 li:nth-child(7){
+	animation-delay: 2s;
+}
+.pr8 li:nth-child(8){
+	animation-delay: 3s;
+}
+.pr8 li:nth-child(9){
+	animation-delay: 4s;
+}
+.pr8 li:nth-child(10){
+	animation-delay: 5s;
+}
+.pr8 li:nth-child(11){
+	animation-delay: 1s;
+}
+.pr8 li:nth-child(12){
+	animation-delay: 2s;
+}
+.pr8 li:nth-child(13){
+	animation-delay: 3s;
+}
+.pr8 li:nth-child(14){
+	animation-delay: 1s;
+}
+.pr8 li:nth-child(15){
+	animation-delay: 2s;
+}
+.pr8 li:nth-child(16){
+	animation-delay: 3s;
+}
+.pr8 li:nth-child(17){
+	animation-delay: 4s;
+}
+.pr9{
+	font-family: Imprint MT Shadow;
+	font-size: 30px;
+}	
+.pr10 li{
+	display: flex;
+	animation: flashssss 1.4s linear infinite;
+	font-size: 50px;
+	letter-spacing: 40px;
+	color: green;
+	font-family: arial;
+
+}
+.pr10{
+	display: flex;
+}
+@keyframes flashssss{
+	0%{
+		color: yellow;
+		text-shadow: none;
+	}
+	90%{
+		color:red;
+		text-shadow: none;
+	}
+	100%{
+		color: green;
+		text-shadow: 0 0 7px white 0 0 50px red;
+	}
+}
+.pr10 li:nth-child(1){
+	animation-delay: 1s;
+}
+.pr10 li:nth-child(2){
+	animation-delay: 2s;
+}
+.pr10 li:nth-child(3){
+	animation-delay: 3s;
+}
+.pr10 li:nth-child(4){
+	animation-delay: 4s;
+}
+.pr10 li:nth-child(5){
+	animation-delay: 5s;
+}
+.pr10 li:nth-child(6){
+	animation-delay: 1s;
+}
+.pr10 li:nth-child(7){
+	animation-delay: 2s;
+}
+.pr10 li:nth-child(8){
+	animation-delay: 3s;
+}
+.pr10 li:nth-child(9){
+	animation-delay: 4s;
+}
+.pr11{
+	font-family: Imprint MT Shadow;
+	font-size: 30px;
+}	
+.pr12 li{
+	display: flex;
+	animation: flashsssss 1.4s linear infinite;
+	font-size: 50px;
+	letter-spacing: 40px;
+	color: green;
+	font-family: arial;
+
+}
+.pr12{
+	display: flex;
+}
+@keyframes flashsssss{
+	0%{
+		color: yellow;
+		text-shadow: none;
+	}
+	90%{
+		color:red;
+		text-shadow: none;
+	}
+	100%{
+		color: green;
+		text-shadow: 0 0 7px white 0 0 50px red;
+	}
+}
+.pr12 li:nth-child(1){
+	animation-delay: 1s;
+}
+.pr12 li:nth-child(2){
+	animation-delay: 2s;
+}
+.pr12 li:nth-child(3){
+	animation-delay: 3s;
+}
+.pr12 li:nth-child(4){
+	animation-delay: 4s;
+}
+.pr12 li:nth-child(5){
+	animation-delay: 5s;
+}
+.pr12 li:nth-child(6){
+	animation-delay: 1s;
+}
+.pr12 li:nth-child(7){
+	animation-delay: 2s;
+}
+.pr13{
+	font-family: Imprint MT Shadow;
+	font-size: 30px;
+}	
